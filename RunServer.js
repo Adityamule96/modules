@@ -5,7 +5,8 @@ let http = require ("http")
 // 2.  server has created and handled Request   
 let server = http.createServer (handleReq) ;
 
-function handleReq(){
+// handlereq 
+function handleReq(req,resp){
   console.log("welcome to browser request has come in !!!!!")
 }
 
